@@ -1,1 +1,93 @@
-/* Add your own styles */
+ header {
+     background-color: rgb(48, 46, 139);
+     color: white;
+     padding: 30px;
+     text-align: center;
+ }
+
+ h1 {
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ body {
+     background-color: rgba(12, 197, 234, 0.844);
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0px;
+ }
+
+ #controls {
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding-left: 30%;
+     padding-right: 30%;
+ }
+
+ #buttons {
+     display: flex;
+     justify-content: center;
+     
+ }
+
+ #lookup {
+color: white;
+    background-color: rgb(228,11,11);
+    border: 1px solid black;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+ }
+
+ #cities {
+color: white;
+    background-color: rgb(48, 46, 139);
+    border: 1px solid black;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+ }
+
+ #country {
+     padding: 7px;
+     margin: 10px;
+     border-radius: 5%;
+     border-width: 1px;
+     border-color: lightgray;
+
+
+ }
+
+ #result {
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ tr {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ table,
+ th,
+ td {
+     border: 5px solid rgb(228,11,11);
+     padding: 5px;
+ }
+
+ table {
+     border-collapse:separate;
+ }
